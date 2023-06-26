@@ -35,3 +35,6 @@ if (score >= 70 && score <= 100) {
 else {
     console.log("Marks cannot be allocated");
 }
+
+/* Assignment
+read up and study switch */
