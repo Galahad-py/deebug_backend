@@ -18,7 +18,7 @@ console.log(typeof b);*/
 
 
 
-let score = 20;
+/*let score = 20;
 
 if (score >= 70 && score <= 100) {
     console.log("A");
@@ -34,7 +34,46 @@ if (score >= 70 && score <= 100) {
     console.log("F");}
 else {
     console.log("Marks cannot be allocated");
-}
+}*/
 
-/* Assignment
-read up and study switch */
+/* Assignment*/
+// let dayOfWeek = 5;
+// switch (dayOfWeek) {
+//     case 1:
+//         console.log("Monday")
+//         break;
+//     case 2:
+//         console.log("Tuesday")
+//         break;
+//     case 3:
+//         console.log("Wednesday")
+//         break;
+//     case 4:
+//         console.log("Thursday")
+//         break;
+//     case 5:
+//         console.log("Friday")
+//     case 6:
+//         console.log("Saturday")
+//     case 7:
+//         console.log("Sunday")
+//         break;
+//     default:
+//         console.log("Not a day of the week")
+// }
+
+
+// let text = "We are the so-called 'vikings' from the north."
+// console.log(text);
+
+// console.log("He shouted \"john\" and said it's alright")
+
+
+// let list = "He shouted 'John'"
+// let listPart = list.slice(3, 7);
+// console.log(listPart)
+
+
+let city = "Benin city";
+let newCity = city.replace("Benin city", "Lagos");
+console.log(newCity + " city".toUpperCase());
