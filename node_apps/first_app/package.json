@@ -1,0 +1,14 @@
+{
+  "name": "first_app",
+  "version": "1.0.0",
+  "description": "This is our first app server app",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon index.js"
+  },
+  "author": "Alpha King-Lemuel Osahon",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
